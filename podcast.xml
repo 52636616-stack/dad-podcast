@@ -158,5 +158,35 @@
       <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep26_银行.mp3" length="86558058" type="audio/mpeg"/>
       <guid>ep26_银行.mp3</guid>
     </item>
+    <item>
+      <title>第27期 - 保险（完整版）</title>
+      <description>保险行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep27_保险.mp3" length="7557032" type="audio/mpeg"/>
+      <guid>ep27_保险.mp3</guid>
+    </item>
+    <item>
+      <title>第28期 - 证券（完整版）</title>
+      <description>证券行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep28_证券.mp3" length="4370616" type="audio/mpeg"/>
+      <guid>ep28_证券.mp3</guid>
+    </item>
+    <item>
+      <title>第29期 - 互联网金融（完整版）</title>
+      <description>互联网金融行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep29_互联网金融.mp3" length="5902854" type="audio/mpeg"/>
+      <guid>ep29_互联网金融.mp3</guid>
+    </item>
+    <item>
+      <title>第30期 - 数字货币（完整版）</title>
+      <description>数字货币行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep30_数字货币.mp3" length="8389920" type="audio/mpeg"/>
+      <guid>ep30_数字货币.mp3</guid>
+    </item>
+    <item>
+      <title>第31期 - 港股（完整版）</title>
+      <description>港股行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep31_港股.mp3" length="882799" type="audio/mpeg"/>
+      <guid>ep31_港股.mp3</guid>
+    </item>
   </channel>
 </rss>
