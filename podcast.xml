@@ -128,5 +128,35 @@
       <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep20_创新药.mp3" length="4595687" type="audio/mpeg"/>
       <guid>ep20_创新药.mp3</guid>
     </item>
+    <item>
+      <title>第21期 - 医疗器械（完整版）</title>
+      <description>医疗器械行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep21_医疗器械.mp3" length="4050094" type="audio/mpeg"/>
+      <guid>ep21_医疗器械.mp3</guid>
+    </item>
+    <item>
+      <title>第22期 - 中药（完整版）</title>
+      <description>中药行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep22_中药.mp3" length="3542273" type="audio/mpeg"/>
+      <guid>ep22_中药.mp3</guid>
+    </item>
+    <item>
+      <title>第24期 - 医疗美容（完整版）</title>
+      <description>医疗美容行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep24_医疗美容.mp3" length="6823514" type="audio/mpeg"/>
+      <guid>ep24_医疗美容.mp3</guid>
+    </item>
+    <item>
+      <title>第25期 - 原料药（完整版）</title>
+      <description>原料药行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep25_原料药.mp3" length="11329793" type="audio/mpeg"/>
+      <guid>ep25_原料药.mp3</guid>
+    </item>
+    <item>
+      <title>第26期 - 银行（完整版）</title>
+      <description>银行行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep26_银行.mp3" length="86558058" type="audio/mpeg"/>
+      <guid>ep26_银行.mp3</guid>
+    </item>
   </channel>
 </rss>
