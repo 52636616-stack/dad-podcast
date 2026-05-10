@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>行业报告 v3.0 - 阅读库</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, "PingFang SC", "Noto Sans SC", sans-serif;
+         background: #f0f2f5; color: #333; transition: background 0.3s, color 0.3s; }
+  
+  /* Header */
+  .header { background: linear-gradient(135deg, #1a5276, #2980b9);
+            color: white; padding: 40px 20px; text-align: center; }
+  .header h1 { font-size: 28px; margin-bottom: 8px; }
+  .header p { opacity: 0.85; font-size: 14px; }
+  
+  /* Controls */
+  .controls { max-width: 960px; margin: 20px auto; padding: 0 20px;
+              display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .controls input { flex: 1; min-width: 200px; padding: 10px 14px; border: 1px solid #ddd;
+                   border-radius: 8px; font-size: 14px; }
+  .controls button { padding: 10px 16px; border: none; border-radius: 8px;
+                     cursor: pointer; font-size: 14px; transition: all 0.2s; }
+  .dark-toggle { background: #34495e; color: white; }
+  .dark-toggle:hover { background: #2c3e50; }
+  
+  /* Container */
+  .container { max-width: 960px; margin: 0 auto; padding: 20px; }
+  
+  /* Section */
+  .section { background: #fff; border-radius: 10px; padding: 20px; margin-bottom: 20px;
+              box-shadow: 0 1px 3px rgba(0,0,0,0.08); transition: background 0.3s; }
+  .section h2 { font-size: 20px; color: #1a5276; margin-bottom: 16px;
+                 padding-bottom: 8px; border-bottom: 2px solid #3498db; }
+  
+  /* Grid */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
+  .item { display: block; padding: 10px 14px; background: #f8f9fa; border-radius: 6px;
+           text-decoration: none; color: #2c3e50; font-size: 14px;
+           transition: all 0.2s; border-left: 3px solid #3498db; }
+  .item:hover { background: #eaf2f8; transform: translateX(3px); }
+  .item.matched { background: #d5f5e3; border-left-color: #27ae60; }
+  .cat-title { font-size: 16px; font-weight: 600; color: #1a5276; margin: 16px 0 8px; }
+  .badge { background: #3498db; color: white; font-size: 11px; padding: 2px 8px;
+           border-radius: 10px; margin-left: 6px; display: inline-block; }
+  .back-link { display: inline-block; margin: 20px; color: #3498db; text-decoration: none; }
+  .back-link:hover { text-decoration: underline; }
+  
+  /* Footer */
+  .footer { text-align: center; color: #999; font-size: 12px; padding: 20px; }
+  
+  /* Dark mode */
+  body.dark { background: #1a1a1a; color: #e0e0e0; }
+  body.dark .section { background: #2d2d2d; color: #e0e0e0; }
+  body.dark .section h2 { color: #5dade2; border-bottom-color: #5dade2; }
+  body.dark .item { background: #3a3a3a; color: #e0e0e0; }
+  body.dark .item:hover { background: #4a4a4a; }
+  body.dark .controls input { background: #2d2d2d; color: #e0e0e0; border-color: #444; }
+  body.dark .cat-title { color: #5dade2; }
+  body.dark .back-link { color: #5dade2; }
+
+  /* Search result */
+  .search-count { font-size: 13px; color: #888; margin-bottom: 12px; }
+  body.dark .search-count { color: #aaa; }
+</style>
+</head>
+<body>
+
+<a href="../" class="back-link">← 返回播客首页</a>
+
+<div class="header">
+  <h1>📚 行业报告 v3.0 阅读库</h1>
+  <p>52个行业深度研究报告 · 完整版 · 2026年5月</p>
+</div>
+
+<div class="controls">
+  <input type="text" id="searchInput" placeholder="🔍 搜索行业关键词..." oninput="filterReports()">
+  <button class="dark-toggle" onclick="toggleDark()">🌙 暗色</button>
+</div>
+
+<div class="container" id="container">
+
+  <div class="section">
+    <h2>🤖 科技 <span class="badge">12个</span></h2>
+    <div class="grid" data-category="科技">
+      <a href="人工智能AI行业报告v3.0.html" class="item" data-name="人工智能AI">人工智能AI</a>
+      <a href="人形机器人行业报告v3.0.html" class="item" data-name="人形机器人">人形机器人</a>
+      <a href="半导体行业报告v3.0.html" class="item" data-name="半导体">半导体</a>
+      <a href="云计算行业报告v3.0.html" class="item" data-name="云计算">云计算</a>
+      <a href="自动驾驶行业报告v3.0.html" class="item" data-name="自动驾驶">自动驾驶</a>
+      <a href="量子计算行业报告v3.0.html" class="item" data-name="量子计算">量子计算</a>
+      <a href="低空经济行业报告v3.0.html" class="item" data-name="低空经济">低空经济</a>
+      <a href="脑机接口行业报告v3.0.html" class="item" data-name="脑机接口">脑机接口</a>
+      <a href="合成生物学行业报告v3.0.html" class="item" data-name="合成生物学">合成生物学</a>
+      <a href="新型电池行业报告v3.0.html" class="item" data-name="新型电池">新型电池</a>
+      <a href="传媒行业报告v3.0.html" class="item" data-name="传媒">传媒</a>
+      <a href="教育行业报告v3.0.html" class="item" data-name="教育">教育</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>⚡ 新能源 <span class="badge">8个</span></h2>
+    <div class="grid" data-category="新能源">
+      <a href="光伏行业报告v3.0.html" class="item" data-name="光伏">光伏</a>
+      <a href="锂电池行业报告v3.0.html" class="item" data-name="锂电池">锂电池</a>
+      <a href="风电行业报告v3.0.html" class="item" data-name="风电">风电</a>
+      <a href="氢能行业报告v3.0.html" class="item" data-name="氢能">氢能</a>
+      <a href="储能行业报告v3.0.html" class="item" data-name="储能">储能</a>
+      <a href="核电行业报告v3.0.html" class="item" data-name="核电">核电</a>
+      <a href="新能源汽车行业报告v3.0.html" class="item" data-name="新能源汽车">新能源汽车</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>💊 医药 <span class="badge">7个</span></h2>
+    <div class="grid" data-category="医药">
+      <a href="创新药行业报告v3.0.html" class="item" data-name="创新药">创新药</a>
+      <a href="医疗器械行业报告v3.0.html" class="item" data-name="医疗器械">医疗器械</a>
+      <a href="中药行业报告v3.0.html" class="item" data-name="中药">中药</a>
+      <a href="医疗服务行业报告v3.0.html" class="item" data-name="医疗服务">医疗服务</a>
+      <a href="医疗美容行业报告v3.0.html" class="item" data-name="医疗美容">医疗美容</a>
+      <a href="原料药行业报告v3.0.html" class="item" data-name="原料药">原料药</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🏦 金融 <span class="badge">6个</span></h2>
+    <div class="grid" data-category="金融">
+      <a href="银行行业报告v3.0_完整版.html" class="item" data-name="银行">银行</a>
+      <a href="保险行业报告v3.0.html" class="item" data-name="保险">保险</a>
+      <a href="证券行业报告v3.0.html" class="item" data-name="证券">证券</a>
+      <a href="互联网金融行业报告v3.0.html" class="item" data-name="互联网金融">互联网金融</a>
+      <a href="数字货币行业报告v3.0.html" class="item" data-name="数字货币">数字货币</a>
+      <a href="港股行业报告v3.0.html" class="item" data-name="港股">港股</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🛒 消费 <span class="badge">5个</span></h2>
+    <div class="grid" data-category="消费">
+      <a href="食品饮料行业报告v3.0.html" class="item" data-name="食品饮料">食品饮料</a>
+      <a href="家电行业报告v3.0.html" class="item" data-name="家电">家电</a>
+      <a href="美妆行业报告v3.0.html" class="item" data-name="美妆">美妆</a>
+      <a href="酒店行业报告v3.0.html" class="item" data-name="酒店">酒店</a>
+      <a href="纺织服装行业报告v3.0.html" class="item" data-name="纺织服装">纺织服装</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🚗 制造 <span class="badge">4个</span></h2>
+    <div class="grid" data-category="制造">
+      <a href="汽车行业报告v3.0.html" class="item" data-name="汽车">汽车</a>
+      <a href="零部件行业报告v3.0.html" class="item" data-name="零部件">零部件</a>
+      <a href="高端装备行业报告v3.0.html" class="item" data-name="高端装备">高端装备</a>
+      <a href="国防军工行业报告v3.0.html" class="item" data-name="国防军工">国防军工</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🏠 地产 <span class="badge">3个</span></h2>
+    <div class="grid" data-category="地产">
+      <a href="房地产行业报告v3.0.html" class="item" data-name="房地产">房地产</a>
+      <a href="物业管理行业报告v3.0.html" class="item" data-name="物业管理">物业管理</a>
+      <a href="REITs行业报告v3.0.html" class="item" data-name="REITs">REITs</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🌾 其他 <span class="badge">7个</span></h2>
+    <div class="grid" data-category="其他">
+      <a href="公用事业行业报告v3.0.html" class="item" data-name="公用事业">公用事业</a>
+      <a href="农业行业报告v3.0.html" class="item" data-name="农业">农业</a>
+      <a href="化工行业报告v3.0.html" class="item" data-name="化工">化工</a>
+      <a href="有色金属行业报告v3.0.html" class="item" data-name="有色金属">有色金属</a>
+      <a href="煤炭行业报告v3.0.html" class="item" data-name="煤炭">煤炭</a>
+      <a href="环保行业报告v3.0.html" class="item" data-name="环保">环保</a>
+      <a href="钢铁行业报告v3.0.html" class="item" data-name="钢铁">钢铁</a>
+      <a href="石油化工行业报告v3.0.html" class="item" data-name="石油化工">石油化工</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>由朱泽曦整理 · 行业报告 v3.0 · 2026年5月</p>
+</div>
+
+<script>
+function toggleDark() {
+  document.body.classList.toggle('dark');
+  localStorage.setItem('darkMode', document.body.classList.contains('dark'));
+}
+
+if (localStorage.getItem('darkMode') === 'true') {
+  document.body.classList.add('dark');
+}
+
+function filterReports() {
+  const query = document.getElementById('searchInput').value.toLowerCase();
+  const items = document.querySelectorAll('.item');
+  let count = 0;
+  items.forEach(item => {
+    const name = item.dataset.name.toLowerCase();
+    const matched = name.includes(query);
+    item.style.display = matched ? '' : 'none';
+    if (matched) count++;
+  });
+  // Show count
+  let countEl = document.getElementById('searchCount');
+  if (!countEl) {
+    countEl = document.createElement('div');
+    countEl.id = 'searchCount';
+    countEl.className = 'search-count';
+    document.getElementById('container').prepend(countEl);
+  }
+  countEl.textContent = query ? `找到 ${count} 个匹配` : '';
+}
+</script>
+
+</body>
+</html>

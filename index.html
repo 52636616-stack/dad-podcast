@@ -1,15 +1,106 @@
 <!DOCTYPE html>
-<html>
-<head><meta charset="UTF-8"><title>爸爸的报告</title></head>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>爸爸的报告</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, "PingFang SC", "Noto Sans SC", sans-serif;
+         background: #f0f2f5; color: #333; }
+  .hero { background: linear-gradient(135deg, #1a5276, #2c3e50);
+          color: white; padding: 60px 20px; text-align: center; }
+  .hero h1 { font-size: 32px; margin-bottom: 10px; }
+  .hero p { opacity: 0.85; font-size: 16px; }
+  .container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+  .card { background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 20px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  .card h2 { font-size: 20px; color: #1a5276; margin-bottom: 16px;
+             display: flex; align-items: center; gap: 10px; }
+  .card h2 .icon { font-size: 28px; }
+  .item-list { list-style: none; }
+  .item-list li { padding: 12px 0; border-bottom: 1px solid #f0f0f0; }
+  .item-list li:last-child { border-bottom: none; }
+  .item-list a { display: flex; justify-content: space-between; align-items: center;
+                text-decoration: none; color: #2c3e50; }
+  .item-list a:hover { color: #3498db; }
+  .item-list .title { font-size: 15px; }
+  .item-list .meta { font-size: 12px; color: #999; }
+  .badge { background: #3498db; color: white; font-size: 12px; padding: 4px 10px;
+           border-radius: 20px; }
+  .back-link { display: inline-block; margin: 20px; color: #3498db; text-decoration: none; font-size: 14px; }
+  .back-link:hover { text-decoration: underline; }
+  .footer { text-align: center; color: #999; font-size: 12px; padding: 30px 20px; }
+</style>
+</head>
 <body>
-<h1>爸爸的报告</h1>
-<p>来自泽曦的专属语音报告</p>
-<p>订阅RSS: <a href="podcast.xml">podcast.xml</a></p>
-<hr>
-<ul>
-<li><a href="audio/2026-05-09-1778327702.mp3">第1期 - 周易周期框架</a></li>
-<li><a href="audio/2026-05-09-1778327749.mp3">第2期 - 行业数据分析</a></li>
-<li><a href="audio/2026-05-09-1778327761.mp3">第3期 - 组合建议</a></li>
-</ul>
+
+<div class="hero">
+  <h1>🎙️ 爸爸的报告</h1>
+  <p>来自泽曦的专属行业研究报告</p>
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <h2><span class="icon">📚</span> 行业报告阅读库 <span class="badge">52个行业</span></h2>
+    <ul class="item-list">
+      <li>
+        <a href="reports/">
+          <span class="title">📖 52个行业深度报告（v3.0完整版）</span>
+          <span class="meta">→ 点击进入</span>
+        </a>
+      </li>
+    </ul>
+    <p style="margin-top: 12px; font-size: 13px; color: #888;">
+      包含：科技、新能源、医药、金融、消费、制造、地产等52个行业
+    </p>
+  </div>
+
+  <div class="card">
+    <h2><span class="icon">🎧</span> 播客语音报告 <span class="badge">12期</span></h2>
+    <ul class="item-list">
+      <li>
+        <a href="audio/2026-05-09-1778337726.mp3">
+          <span class="title">第12期 - 人工智能AI（v3.0完整版）</span>
+          <span class="meta">89秒</span>
+        </a>
+      </li>
+      <li>
+        <a href="audio/2026-05-09-1778337102.mp3">
+          <span class="title">第11期</span>
+          <span class="meta">50秒</span>
+        </a>
+      </li>
+      <li>
+        <a href="audio/2026-05-09-1778337094.mp3">
+          <span class="title">第10期</span>
+          <span class="meta">47秒</span>
+        </a>
+      </li>
+      <li>
+        <a href="audio/2026-05-09-1778337016.mp3">
+          <span class="title">第9期</span>
+          <span class="meta">71秒</span>
+        </a>
+      </li>
+      <li>
+        <a href="audio/2026-05-09-1778337005.mp3">
+          <span class="title">第8期</span>
+          <span class="meta">73秒</span>
+        </a>
+      </li>
+    </ul>
+    <p style="margin-top: 12px; font-size: 13px; color: #888;">
+      订阅RSS：<a href="podcast.xml" style="color: #3498db;">podcast.xml</a>
+    </p>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>由朱泽曦整理 · GitHub Pages 部署</p>
+</div>
+
 </body>
 </html>

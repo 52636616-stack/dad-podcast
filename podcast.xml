@@ -3,34 +3,15 @@
   <channel>
     <title>爸爸的报告</title>
     <description>专属语音报告，来自泽曦</description>
-    <link>https://52636616-stack.github.io/dad-podcast</link>
+    <link>http://127.0.0.1:18900</link>
     <language>zh-cn</language>
     <itunes:author>朱泽曦</itunes:author>
-    <itunes:image href="https://52636616-stack.github.io/dad-podcast/cover/cover.jpg"/>
+    <itunes:image href="http://127.0.0.1:18900/cover/cover.jpg"/>
     <itunes:category text="News"/>
     <item>
-      <title>第1期 - 周易周期与行业投资（框架篇）</title>
-      <description>周易八卦对应行业周期：乾卦升腾期、离卦繁荣期、大壮卦成长期、临卦成熟期、遁卦调整期、坤卦衰退期。</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778327702.mp3" length="460242" type="audio/mpeg"/>
-      <guid>ep001</guid>
-      <pubDate>Sat, 09 May 2026 19:55:00 +0800</pubDate>
-      <itunes:duration>76</itunes:duration>
-    </item>
-    <item>
-      <title>第2期 - 行业周期数据分析（升腾·繁荣·成长）</title>
-      <description>升腾期AI、新能源车、半导体数据；繁荣期锂电池、光伏数据；成长期人形机器人、脑机接口数据。</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778327749.mp3" length="655377" type="audio/mpeg"/>
-      <guid>ep002</guid>
-      <pubDate>Sat, 09 May 2026 19:56:00 +0800</pubDate>
-      <itunes:duration>109</itunes:duration>
-    </item>
-    <item>
-      <title>第3期 - 成熟调整期与投资组合建议</title>
-      <description>成熟期银行保险白酒数据；调整期房地产数据；投资组合建议和行业排名。</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778327761.mp3" length="558358" type="audio/mpeg"/>
-      <guid>ep003</guid>
-      <pubDate>Sat, 09 May 2026 19:57:00 +0800</pubDate>
-      <itunes:duration>93</itunes:duration>
-    </item>
+      <title>第12期 - 人工智能AI（v3.0完整版）</title>
+      <description>第12期 - 人工智能AI（v3.0完整版）</description>
+      <enclosure url="http://127.0.0.1:18900/audio/2026-05-09-1778337726.mp3" length="534848" type="audio/mpeg"/>
+      <guid>2026-05-09-1778337726.mp3</guid>
   </channel>
 </rss>

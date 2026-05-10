@@ -1,0 +1,5 @@
+    <item>
+      <title>第12期 - 人工智能AI（v3.0完整版）</title>
+      <description>第12期 - 人工智能AI（v3.0完整版）</description>
+      <enclosure url="http://127.0.0.1:18900/audio/2026-05-09-1778337726.mp3" length="534848" type="audio/mpeg"/>
+      <guid>2026-05-09-1778337726.mp3</guid>
