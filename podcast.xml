@@ -278,5 +278,29 @@
       <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep47_有色金属.mp3" length="4420458" type="audio/mpeg"/>
       <guid>ep47_有色金属.mp3</guid>
     </item>
+    <item>
+      <title>第48期 - 煤炭（完整版）</title>
+      <description>煤炭行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep48_煤炭.mp3" length="7035733" type="audio/mpeg"/>
+      <guid>ep48_煤炭.mp3</guid>
+    </item>
+    <item>
+      <title>第49期 - 环保（完整版）</title>
+      <description>环保行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep49_环保.mp3" length="9084882" type="audio/mpeg"/>
+      <guid>ep49_环保.mp3</guid>
+    </item>
+    <item>
+      <title>第50期 - 石油化工（完整版）</title>
+      <description>石油化工行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep50_石油化工.mp3" length="7127579" type="audio/mpeg"/>
+      <guid>ep50_石油化工.mp3</guid>
+    </item>
+    <item>
+      <title>第51期 - 钢铁（完整版）</title>
+      <description>钢铁行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep51_钢铁.mp3" length="25745780" type="audio/mpeg"/>
+      <guid>ep51_钢铁.mp3</guid>
+    </item>
   </channel>
 </rss>
