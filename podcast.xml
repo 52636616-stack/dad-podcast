@@ -188,5 +188,35 @@
       <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep31_港股.mp3" length="882799" type="audio/mpeg"/>
       <guid>ep31_港股.mp3</guid>
     </item>
+    <item>
+      <title>第32期 - 食品饮料（完整版）</title>
+      <description>食品饮料行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep32_食品饮料.mp3" length="5193787" type="audio/mpeg"/>
+      <guid>ep32_食品饮料.mp3</guid>
+    </item>
+    <item>
+      <title>第33期 - 家电（完整版）</title>
+      <description>家电行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep33_家电.mp3" length="17630685" type="audio/mpeg"/>
+      <guid>ep33_家电.mp3</guid>
+    </item>
+    <item>
+      <title>第34期 - 美妆（完整版）</title>
+      <description>美妆行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep34_美妆.mp3" length="3489924" type="audio/mpeg"/>
+      <guid>ep34_美妆.mp3</guid>
+    </item>
+    <item>
+      <title>第35期 - 酒店（完整版）</title>
+      <description>酒店行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep35_酒店.mp3" length="13827360" type="audio/mpeg"/>
+      <guid>ep35_酒店.mp3</guid>
+    </item>
+    <item>
+      <title>第36期 - 纺织服装（完整版）</title>
+      <description>纺织服装行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep36_纺织服装.mp3" length="4333627" type="audio/mpeg"/>
+      <guid>ep36_纺织服装.mp3</guid>
+    </item>
   </channel>
 </rss>
