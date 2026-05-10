@@ -3,303 +3,315 @@
   <channel>
     <title>爸爸的报告 - 52行业完整版（全文朗读）</title>
     <description>52个行业完整深度报告全文朗读，来自泽曦</description>
-    <link>https://52636616-stack.github.io/dad-podcast/</link>
+    <link>http://127.0.0.1:18900/</link>
     <language>zh-cn</language>
     <itunes:author>朱泽曦</itunes:author>
-    <itunes:image href="https://52636616-stack.github.io/dad-podcast/cover/cover.jpg"/>
+    <itunes:image href="http://127.0.0.1:18900/cover/cover.jpg"/>
     <itunes:category text="News"/>
     <item>
       <title>第1期 - 人工智能AI（完整版）</title>
       <description>人工智能AI行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep01_人工智能AI.mp3" length="380778" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep01_人工智能AI.mp3" length="380778" type="audio/mpeg"/>
       <guid>ep01_人工智能AI.mp3</guid>
     </item>
     <item>
       <title>第2期 - 人形机器人（完整版）</title>
       <description>人形机器人行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep02_人形机器人.mp3" length="424036" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep02_人形机器人.mp3" length="424036" type="audio/mpeg"/>
       <guid>ep02_人形机器人.mp3</guid>
     </item>
     <item>
       <title>第3期 - 半导体（完整版）</title>
       <description>半导体行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep03_半导体.mp3" length="583906" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep03_半导体.mp3" length="583906" type="audio/mpeg"/>
       <guid>ep03_半导体.mp3</guid>
     </item>
     <item>
       <title>第4期 - 云计算（完整版）</title>
       <description>云计算行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep04_云计算.mp3" length="1886841" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep04_云计算.mp3" length="1886841" type="audio/mpeg"/>
       <guid>ep04_云计算.mp3</guid>
     </item>
     <item>
       <title>第5期 - 自动驾驶（完整版）</title>
       <description>自动驾驶行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep05_自动驾驶.mp3" length="933581" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep05_自动驾驶.mp3" length="933581" type="audio/mpeg"/>
       <guid>ep05_自动驾驶.mp3</guid>
     </item>
     <item>
       <title>第6期 - 量子计算（完整版）</title>
       <description>量子计算行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep06_量子计算.mp3" length="1499236" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep06_量子计算.mp3" length="1499236" type="audio/mpeg"/>
       <guid>ep06_量子计算.mp3</guid>
     </item>
     <item>
       <title>第7期 - 低空经济（完整版）</title>
       <description>低空经济行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep07_低空经济.mp3" length="11482923" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep07_低空经济.mp3" length="11482923" type="audio/mpeg"/>
       <guid>ep07_低空经济.mp3</guid>
     </item>
     <item>
       <title>第8期 - 脑机接口（完整版）</title>
       <description>脑机接口行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep08_脑机接口.mp3" length="1539674" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep08_脑机接口.mp3" length="1539674" type="audio/mpeg"/>
       <guid>ep08_脑机接口.mp3</guid>
     </item>
     <item>
       <title>第9期 - 合成生物学（完整版）</title>
       <description>合成生物学行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep09_合成生物学.mp3" length="4724209" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep09_合成生物学.mp3" length="4724209" type="audio/mpeg"/>
       <guid>ep09_合成生物学.mp3</guid>
     </item>
     <item>
       <title>第10期 - 新型电池（完整版）</title>
       <description>新型电池行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep10_新型电池.mp3" length="2565973" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep10_新型电池.mp3" length="2565973" type="audio/mpeg"/>
       <guid>ep10_新型电池.mp3</guid>
     </item>
     <item>
       <title>第11期 - 传媒（完整版）</title>
       <description>传媒行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep11_传媒.mp3" length="1449395" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep11_传媒.mp3" length="1449395" type="audio/mpeg"/>
       <guid>ep11_传媒.mp3</guid>
     </item>
     <item>
       <title>第12期 - 教育（完整版）</title>
       <description>教育行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep12_教育.mp3" length="5100216" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep12_教育.mp3" length="5100216" type="audio/mpeg"/>
       <guid>ep12_教育.mp3</guid>
     </item>
     <item>
       <title>第13期 - 光伏（完整版）</title>
       <description>光伏行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep13_光伏.mp3" length="21261757" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep13_光伏.mp3" length="21261757" type="audio/mpeg"/>
       <guid>ep13_光伏.mp3</guid>
     </item>
     <item>
       <title>第14期 - 锂电池（完整版）</title>
       <description>锂电池行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep14_锂电池.mp3" length="2057525" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep14_锂电池.mp3" length="2057525" type="audio/mpeg"/>
       <guid>ep14_锂电池.mp3</guid>
     </item>
     <item>
       <title>第15期 - 风电（完整版）</title>
       <description>风电行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep15_风电.mp3" length="24800670" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep15_风电.mp3" length="24800670" type="audio/mpeg"/>
       <guid>ep15_风电.mp3</guid>
     </item>
     <item>
       <title>第16期 - 氢能（完整版）</title>
       <description>氢能行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep16_氢能.mp3" length="3912167" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep16_氢能.mp3" length="3912167" type="audio/mpeg"/>
       <guid>ep16_氢能.mp3</guid>
     </item>
     <item>
       <title>第17期 - 储能（完整版）</title>
       <description>储能行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep17_储能.mp3" length="2920036" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep17_储能.mp3" length="2920036" type="audio/mpeg"/>
       <guid>ep17_储能.mp3</guid>
     </item>
     <item>
       <title>第18期 - 核电（完整版）</title>
       <description>核电行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep18_核电.mp3" length="48138779" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep18_核电.mp3" length="48138779" type="audio/mpeg"/>
       <guid>ep18_核电.mp3</guid>
     </item>
     <item>
       <title>第19期 - 新能源汽车（完整版）</title>
       <description>新能源汽车行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep19_新能源汽车.mp3" length="1239997" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep19_新能源汽车.mp3" length="1239997" type="audio/mpeg"/>
       <guid>ep19_新能源汽车.mp3</guid>
     </item>
     <item>
       <title>第20期 - 创新药（完整版）</title>
       <description>创新药行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep20_创新药.mp3" length="4595687" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep20_创新药.mp3" length="4595687" type="audio/mpeg"/>
       <guid>ep20_创新药.mp3</guid>
     </item>
     <item>
       <title>第21期 - 医疗器械（完整版）</title>
       <description>医疗器械行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep21_医疗器械.mp3" length="4050094" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep21_医疗器械.mp3" length="4050094" type="audio/mpeg"/>
       <guid>ep21_医疗器械.mp3</guid>
     </item>
     <item>
       <title>第22期 - 中药（完整版）</title>
       <description>中药行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep22_中药.mp3" length="3542273" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep22_中药.mp3" length="3542273" type="audio/mpeg"/>
       <guid>ep22_中药.mp3</guid>
+    </item>
+    <item>
+      <title>第23期 - 医疗服务（完整版）</title>
+      <description>医疗服务行业完整内容朗读</description>
+      <enclosure url="http://127.0.0.1:18900/audio/ep23_医疗服务.mp3" length="1750325" type="audio/mpeg"/>
+      <guid>ep23_医疗服务.mp3</guid>
     </item>
     <item>
       <title>第24期 - 医疗美容（完整版）</title>
       <description>医疗美容行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep24_医疗美容.mp3" length="6823514" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep24_医疗美容.mp3" length="6823514" type="audio/mpeg"/>
       <guid>ep24_医疗美容.mp3</guid>
     </item>
     <item>
       <title>第25期 - 原料药（完整版）</title>
       <description>原料药行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep25_原料药.mp3" length="11329793" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep25_原料药.mp3" length="11329793" type="audio/mpeg"/>
       <guid>ep25_原料药.mp3</guid>
     </item>
     <item>
       <title>第26期 - 银行（完整版）</title>
       <description>银行行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep26_银行.mp3" length="86558058" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep26_银行.mp3" length="86558058" type="audio/mpeg"/>
       <guid>ep26_银行.mp3</guid>
     </item>
     <item>
       <title>第27期 - 保险（完整版）</title>
       <description>保险行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep27_保险.mp3" length="7557032" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep27_保险.mp3" length="7557032" type="audio/mpeg"/>
       <guid>ep27_保险.mp3</guid>
     </item>
     <item>
       <title>第28期 - 证券（完整版）</title>
       <description>证券行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep28_证券.mp3" length="4370616" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep28_证券.mp3" length="4370616" type="audio/mpeg"/>
       <guid>ep28_证券.mp3</guid>
     </item>
     <item>
       <title>第29期 - 互联网金融（完整版）</title>
       <description>互联网金融行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep29_互联网金融.mp3" length="5902854" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep29_互联网金融.mp3" length="5902854" type="audio/mpeg"/>
       <guid>ep29_互联网金融.mp3</guid>
     </item>
     <item>
       <title>第30期 - 数字货币（完整版）</title>
       <description>数字货币行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep30_数字货币.mp3" length="8389920" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep30_数字货币.mp3" length="8389920" type="audio/mpeg"/>
       <guid>ep30_数字货币.mp3</guid>
     </item>
     <item>
       <title>第31期 - 港股（完整版）</title>
       <description>港股行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep31_港股.mp3" length="882799" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep31_港股.mp3" length="882799" type="audio/mpeg"/>
       <guid>ep31_港股.mp3</guid>
     </item>
     <item>
       <title>第32期 - 食品饮料（完整版）</title>
       <description>食品饮料行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep32_食品饮料.mp3" length="5193787" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep32_食品饮料.mp3" length="5193787" type="audio/mpeg"/>
       <guid>ep32_食品饮料.mp3</guid>
     </item>
     <item>
       <title>第33期 - 家电（完整版）</title>
       <description>家电行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep33_家电.mp3" length="17630685" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep33_家电.mp3" length="17630685" type="audio/mpeg"/>
       <guid>ep33_家电.mp3</guid>
     </item>
     <item>
       <title>第34期 - 美妆（完整版）</title>
       <description>美妆行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep34_美妆.mp3" length="3489924" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep34_美妆.mp3" length="3489924" type="audio/mpeg"/>
       <guid>ep34_美妆.mp3</guid>
     </item>
     <item>
       <title>第35期 - 酒店（完整版）</title>
       <description>酒店行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep35_酒店.mp3" length="13827360" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep35_酒店.mp3" length="13827360" type="audio/mpeg"/>
       <guid>ep35_酒店.mp3</guid>
     </item>
     <item>
       <title>第36期 - 纺织服装（完整版）</title>
       <description>纺织服装行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep36_纺织服装.mp3" length="4333627" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep36_纺织服装.mp3" length="4333627" type="audio/mpeg"/>
       <guid>ep36_纺织服装.mp3</guid>
     </item>
     <item>
       <title>第37期 - 汽车（完整版）</title>
       <description>汽车行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep37_汽车.mp3" length="1236706" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep37_汽车.mp3" length="1236706" type="audio/mpeg"/>
       <guid>ep37_汽车.mp3</guid>
     </item>
     <item>
       <title>第38期 - 零部件（完整版）</title>
       <description>零部件行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep38_零部件.mp3" length="3302469" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep38_零部件.mp3" length="3302469" type="audio/mpeg"/>
       <guid>ep38_零部件.mp3</guid>
     </item>
     <item>
       <title>第39期 - 高端装备（完整版）</title>
       <description>高端装备行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep39_高端装备.mp3" length="38761342" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep39_高端装备.mp3" length="38761342" type="audio/mpeg"/>
       <guid>ep39_高端装备.mp3</guid>
     </item>
     <item>
       <title>第40期 - 国防军工（完整版）</title>
       <description>国防军工行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep40_国防军工.mp3" length="7584774" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep40_国防军工.mp3" length="7584774" type="audio/mpeg"/>
       <guid>ep40_国防军工.mp3</guid>
     </item>
     <item>
       <title>第41期 - 房地产（完整版）</title>
       <description>房地产行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep41_房地产.mp3" length="21389026" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep41_房地产.mp3" length="21389026" type="audio/mpeg"/>
       <guid>ep41_房地产.mp3</guid>
+    </item>
+    <item>
+      <title>第42期 - 物业管理（完整版）</title>
+      <description>物业管理行业完整内容朗读</description>
+      <enclosure url="http://127.0.0.1:18900/audio/ep42_物业管理.mp3" length="57515746" type="audio/mpeg"/>
+      <guid>ep42_物业管理.mp3</guid>
     </item>
     <item>
       <title>第43期 - REITs（完整版）</title>
       <description>REITs行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep43_REITs.mp3" length="5553963" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep43_REITs.mp3" length="5553963" type="audio/mpeg"/>
       <guid>ep43_REITs.mp3</guid>
     </item>
     <item>
       <title>第44期 - 公用事业（完整版）</title>
       <description>公用事业行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep44_公用事业.mp3" length="26327579" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep44_公用事业.mp3" length="26327579" type="audio/mpeg"/>
       <guid>ep44_公用事业.mp3</guid>
     </item>
     <item>
       <title>第45期 - 农业（完整版）</title>
       <description>农业行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep45_农业.mp3" length="69912990" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep45_农业.mp3" length="69912990" type="audio/mpeg"/>
       <guid>ep45_农业.mp3</guid>
     </item>
     <item>
       <title>第46期 - 化工（完整版）</title>
       <description>化工行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep46_化工.mp3" length="7122877" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep46_化工.mp3" length="7122877" type="audio/mpeg"/>
       <guid>ep46_化工.mp3</guid>
     </item>
     <item>
       <title>第47期 - 有色金属（完整版）</title>
       <description>有色金属行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep47_有色金属.mp3" length="4420458" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep47_有色金属.mp3" length="4420458" type="audio/mpeg"/>
       <guid>ep47_有色金属.mp3</guid>
     </item>
     <item>
       <title>第48期 - 煤炭（完整版）</title>
       <description>煤炭行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep48_煤炭.mp3" length="7035733" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep48_煤炭.mp3" length="7035733" type="audio/mpeg"/>
       <guid>ep48_煤炭.mp3</guid>
     </item>
     <item>
       <title>第49期 - 环保（完整版）</title>
       <description>环保行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep49_环保.mp3" length="9084882" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep49_环保.mp3" length="9084882" type="audio/mpeg"/>
       <guid>ep49_环保.mp3</guid>
     </item>
     <item>
       <title>第50期 - 石油化工（完整版）</title>
       <description>石油化工行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep50_石油化工.mp3" length="7127579" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep50_石油化工.mp3" length="7127579" type="audio/mpeg"/>
       <guid>ep50_石油化工.mp3</guid>
     </item>
     <item>
       <title>第51期 - 钢铁（完整版）</title>
       <description>钢铁行业完整内容朗读</description>
-      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep51_钢铁.mp3" length="25745780" type="audio/mpeg"/>
+      <enclosure url="http://127.0.0.1:18900/audio/ep51_钢铁.mp3" length="25745780" type="audio/mpeg"/>
       <guid>ep51_钢铁.mp3</guid>
     </item>
   </channel>
