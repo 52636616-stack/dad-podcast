@@ -68,5 +68,35 @@
       <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep10_新型电池.mp3" length="2565973" type="audio/mpeg"/>
       <guid>ep10_新型电池.mp3</guid>
     </item>
+    <item>
+      <title>第11期 - 传媒（完整版）</title>
+      <description>传媒行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep11_传媒.mp3" length="1449395" type="audio/mpeg"/>
+      <guid>ep11_传媒.mp3</guid>
+    </item>
+    <item>
+      <title>第12期 - 教育（完整版）</title>
+      <description>教育行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep12_教育.mp3" length="5100216" type="audio/mpeg"/>
+      <guid>ep12_教育.mp3</guid>
+    </item>
+    <item>
+      <title>第13期 - 光伏（完整版）</title>
+      <description>光伏行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep13_光伏.mp3" length="21261757" type="audio/mpeg"/>
+      <guid>ep13_光伏.mp3</guid>
+    </item>
+    <item>
+      <title>第14期 - 锂电池（完整版）</title>
+      <description>锂电池行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep14_锂电池.mp3" length="2057525" type="audio/mpeg"/>
+      <guid>ep14_锂电池.mp3</guid>
+    </item>
+    <item>
+      <title>第15期 - 风电（完整版）</title>
+      <description>风电行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep15_风电.mp3" length="24800670" type="audio/mpeg"/>
+      <guid>ep15_风电.mp3</guid>
+    </item>
   </channel>
 </rss>
