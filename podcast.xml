@@ -2,16 +2,108 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>爸爸的报告</title>
-    <description>专属语音报告，来自泽曦</description>
-    <link>http://127.0.0.1:18900</link>
+    <description>专属语音报告，来自泽曦 - 52个行业深度分析</description>
+    <link>https://52636616-stack.github.io/dad-podcast/</link>
     <language>zh-cn</language>
     <itunes:author>朱泽曦</itunes:author>
-    <itunes:image href="http://127.0.0.1:18900/cover/cover.jpg"/>
+    <itunes:image href="https://52636616-stack.github.io/dad-podcast/cover/cover.jpg"/>
     <itunes:category text="News"/>
+    
+    <item>
+      <title>第1期 - 周易周期框架</title>
+      <description>周易周期与行业投资分析</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778327702.mp3" length="460242" type="audio/mpeg"/>
+      <guid>2026-05-09-1778327702</guid>
+      <pubDate>Thu, 08 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    
+    <item>
+      <title>第2期 - 行业数据分析</title>
+      <description>行业数据分析</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778327749.mp3" length="655377" type="audio/mpeg"/>
+      <guid>2026-05-09-1778327749</guid>
+      <pubDate>Thu, 08 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    
+    <item>
+      <title>第3期 - 组合建议</title>
+      <description>组合建议</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778327761.mp3" length="558358" type="audio/mpeg"/>
+      <guid>2026-05-09-1778327761</guid>
+      <pubDate>Thu, 08 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    
+    <item>
+      <title>第4期</title>
+      <description>行业报告播客第4期</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778336701.mp3" length="487671" type="audio/mpeg"/>
+      <guid>2026-05-09-1778336701</guid>
+      <pubDate>Fri, 09 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    
+    <item>
+      <title>第5期</title>
+      <description>行业报告播客第5期</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778336713.mp3" length="476856" type="audio/mpeg"/>
+      <guid>2026-05-09-1778336713</guid>
+      <pubDate>Fri, 09 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    
+    <item>
+      <title>第6期</title>
+      <description>行业报告播客第6期</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778336724.mp3" length="458675" type="audio/mpeg"/>
+      <guid>2026-05-09-1778336724</guid>
+      <pubDate>Fri, 09 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    
+    <item>
+      <title>第7期</title>
+      <description>行业报告播客第7期</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778336993.mp3" length="550835" type="audio/mpeg"/>
+      <guid>2026-05-09-1778336993</guid>
+      <pubDate>Fri, 09 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    
+    <item>
+      <title>第8期</title>
+      <description>行业报告播客第8期</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778337005.mp3" length="438613" type="audio/mpeg"/>
+      <guid>2026-05-09-1778337005</guid>
+      <pubDate>Fri, 09 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    
+    <item>
+      <title>第9期</title>
+      <description>行业报告播客第9期</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778337016.mp3" length="425134" type="audio/mpeg"/>
+      <guid>2026-05-09-1778337016</guid>
+      <pubDate>Fri, 09 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    
+    <item>
+      <title>第10期</title>
+      <description>行业报告播客第10期</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778337094.mp3" length="282975" type="audio/mpeg"/>
+      <guid>2026-05-09-1778337094</guid>
+      <pubDate>Fri, 09 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    
+    <item>
+      <title>第11期</title>
+      <description>行业报告播客第11期</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778337102.mp3" length="298962" type="audio/mpeg"/>
+      <guid>2026-05-09-1778337102</guid>
+      <pubDate>Fri, 09 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    
     <item>
       <title>第12期 - 人工智能AI（v3.0完整版）</title>
-      <description>第12期 - 人工智能AI（v3.0完整版）</description>
-      <enclosure url="http://127.0.0.1:18900/audio/2026-05-09-1778337726.mp3" length="534848" type="audio/mpeg"/>
-      <guid>2026-05-09-1778337726.mp3</guid>
+      <description>人工智能AI行业v3.0完整版</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/2026-05-09-1778337726.mp3" length="534848" type="audio/mpeg"/>
+      <guid>2026-05-09-1778337726</guid>
+      <pubDate>Sat, 10 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    
   </channel>
 </rss>
