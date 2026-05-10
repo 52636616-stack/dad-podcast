@@ -98,5 +98,35 @@
       <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep15_风电.mp3" length="24800670" type="audio/mpeg"/>
       <guid>ep15_风电.mp3</guid>
     </item>
+    <item>
+      <title>第16期 - 氢能（完整版）</title>
+      <description>氢能行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep16_氢能.mp3" length="3912167" type="audio/mpeg"/>
+      <guid>ep16_氢能.mp3</guid>
+    </item>
+    <item>
+      <title>第17期 - 储能（完整版）</title>
+      <description>储能行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep17_储能.mp3" length="2920036" type="audio/mpeg"/>
+      <guid>ep17_储能.mp3</guid>
+    </item>
+    <item>
+      <title>第18期 - 核电（完整版）</title>
+      <description>核电行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep18_核电.mp3" length="48138779" type="audio/mpeg"/>
+      <guid>ep18_核电.mp3</guid>
+    </item>
+    <item>
+      <title>第19期 - 新能源汽车（完整版）</title>
+      <description>新能源汽车行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep19_新能源汽车.mp3" length="1239997" type="audio/mpeg"/>
+      <guid>ep19_新能源汽车.mp3</guid>
+    </item>
+    <item>
+      <title>第20期 - 创新药（完整版）</title>
+      <description>创新药行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep20_创新药.mp3" length="4595687" type="audio/mpeg"/>
+      <guid>ep20_创新药.mp3</guid>
+    </item>
   </channel>
 </rss>
