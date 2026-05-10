@@ -218,5 +218,35 @@
       <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep36_纺织服装.mp3" length="4333627" type="audio/mpeg"/>
       <guid>ep36_纺织服装.mp3</guid>
     </item>
+    <item>
+      <title>第37期 - 汽车（完整版）</title>
+      <description>汽车行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep37_汽车.mp3" length="1236706" type="audio/mpeg"/>
+      <guid>ep37_汽车.mp3</guid>
+    </item>
+    <item>
+      <title>第38期 - 零部件（完整版）</title>
+      <description>零部件行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep38_零部件.mp3" length="3302469" type="audio/mpeg"/>
+      <guid>ep38_零部件.mp3</guid>
+    </item>
+    <item>
+      <title>第39期 - 高端装备（完整版）</title>
+      <description>高端装备行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep39_高端装备.mp3" length="38761342" type="audio/mpeg"/>
+      <guid>ep39_高端装备.mp3</guid>
+    </item>
+    <item>
+      <title>第40期 - 国防军工（完整版）</title>
+      <description>国防军工行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep40_国防军工.mp3" length="7584774" type="audio/mpeg"/>
+      <guid>ep40_国防军工.mp3</guid>
+    </item>
+    <item>
+      <title>第41期 - 房地产（完整版）</title>
+      <description>房地产行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep41_房地产.mp3" length="21389026" type="audio/mpeg"/>
+      <guid>ep41_房地产.mp3</guid>
+    </item>
   </channel>
 </rss>
