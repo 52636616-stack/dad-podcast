@@ -248,5 +248,35 @@
       <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep41_房地产.mp3" length="21389026" type="audio/mpeg"/>
       <guid>ep41_房地产.mp3</guid>
     </item>
+    <item>
+      <title>第43期 - REITs（完整版）</title>
+      <description>REITs行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep43_REITs.mp3" length="5553963" type="audio/mpeg"/>
+      <guid>ep43_REITs.mp3</guid>
+    </item>
+    <item>
+      <title>第44期 - 公用事业（完整版）</title>
+      <description>公用事业行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep44_公用事业.mp3" length="26327579" type="audio/mpeg"/>
+      <guid>ep44_公用事业.mp3</guid>
+    </item>
+    <item>
+      <title>第45期 - 农业（完整版）</title>
+      <description>农业行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep45_农业.mp3" length="69912990" type="audio/mpeg"/>
+      <guid>ep45_农业.mp3</guid>
+    </item>
+    <item>
+      <title>第46期 - 化工（完整版）</title>
+      <description>化工行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep46_化工.mp3" length="7122877" type="audio/mpeg"/>
+      <guid>ep46_化工.mp3</guid>
+    </item>
+    <item>
+      <title>第47期 - 有色金属（完整版）</title>
+      <description>有色金属行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep47_有色金属.mp3" length="4420458" type="audio/mpeg"/>
+      <guid>ep47_有色金属.mp3</guid>
+    </item>
   </channel>
 </rss>
