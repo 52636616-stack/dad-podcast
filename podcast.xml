@@ -38,5 +38,35 @@
       <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep05_自动驾驶.mp3" length="933581" type="audio/mpeg"/>
       <guid>ep05_自动驾驶.mp3</guid>
     </item>
+    <item>
+      <title>第6期 - 量子计算（完整版）</title>
+      <description>量子计算行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep06_量子计算.mp3" length="1499236" type="audio/mpeg"/>
+      <guid>ep06_量子计算.mp3</guid>
+    </item>
+    <item>
+      <title>第7期 - 低空经济（完整版）</title>
+      <description>低空经济行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep07_低空经济.mp3" length="11482923" type="audio/mpeg"/>
+      <guid>ep07_低空经济.mp3</guid>
+    </item>
+    <item>
+      <title>第8期 - 脑机接口（完整版）</title>
+      <description>脑机接口行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep08_脑机接口.mp3" length="1539674" type="audio/mpeg"/>
+      <guid>ep08_脑机接口.mp3</guid>
+    </item>
+    <item>
+      <title>第9期 - 合成生物学（完整版）</title>
+      <description>合成生物学行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep09_合成生物学.mp3" length="4724209" type="audio/mpeg"/>
+      <guid>ep09_合成生物学.mp3</guid>
+    </item>
+    <item>
+      <title>第10期 - 新型电池（完整版）</title>
+      <description>新型电池行业完整内容朗读</description>
+      <enclosure url="https://52636616-stack.github.io/dad-podcast/audio/ep10_新型电池.mp3" length="2565973" type="audio/mpeg"/>
+      <guid>ep10_新型电池.mp3</guid>
+    </item>
   </channel>
 </rss>
