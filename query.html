@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📊 项目查询 - 爸爸的报告</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            color: white;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin-bottom: 10px;
+        }
+        header p {
+            color: rgba(255,255,255,0.9);
+            font-size: 1.1em;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background 0.3s;
+        }
+        .back-link:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        
+        .search-box {
+            background: white;
+            border-radius: 16px;
+            padding: 25px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            margin-bottom: 20px;
+        }
+        .search-box h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        .input-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 15px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        input[type="text"]:focus {
+            border-color: #667eea;
+            outline: none;
+        }
+        button {
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .quick-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .quick-filters button {
+            padding: 10px 18px;
+            background: #f5f5f5;
+            color: #333;
+            font-size: 14px;
+            font-weight: normal;
+        }
+        .quick-filters button:hover {
+            background: #e8e8e8;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .stat-card {
+            background: white;
+            border-radius: 16px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .stat-card .number {
+            font-size: 2.5em;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .stat-card .label {
+            color: #666;
+            margin-top: 5px;
+            font-size: 0.95em;
+        }
+        
+        .results {
+            background: white;
+            border-radius: 16px;
+            padding: 25px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+        }
+        .results h3 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #333;
+        }
+        tr:hover {
+            background: #fafafa;
+        }
+        .amount {
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+            font-weight: 500;
+        }
+        .stage-tag {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .stage-1 { background: #fff3cd; color: #856404; }
+        .stage-2 { background: #cce5ff; color: #004085; }
+        .stage-3 { background: #d4edda; color: #155724; }
+        .stage-4 { background: #e2d3f3; color: #563d7c; }
+        .stage-5 { background: #28a745; color: white; }
+        
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 3px solid #667eea;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .no-data {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+        .error {
+            text-align: center;
+            padding: 40px;
+            color: #dc3545;
+            background: #f8d7da;
+            border-radius: 12px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: rgba(255,255,255,0.7);
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .input-row {
+                flex-direction: column;
+            }
+            header h1 {
+                font-size: 1.8em;
+            }
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            table {
+                font-size: 14px;
+            }
+            th, td {
+                padding: 8px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 项目查询中心</h1>
+            <p>浙江分公司业务数据查询</p>
+            <a href="index.html" class="back-link">← 返回首页</a>
+        </header>
+        
+        <div class="search-box">
+            <h3>🔍 智能查询</h3>
+            <div class="input-row">
+                <input type="text" id="queryInput" placeholder="输入查询条件，如：温州二组有哪些项目？">
+                <button onclick="doQuery()">查询</button>
+            </div>
+            <div class="quick-filters">
+                <button onclick="quickQuery('温州二组')">温州二组</button>
+                <button onclick="quickQuery('杭州一组')">杭州一组</button>
+                <button onclick="quickQuery('杭州二组')">杭州二组</button>
+                <button onclick="quickQuery('宁波一组')">宁波一组</button>
+                <button onclick="quickQuery('宁波二组')">宁波一组</button>
+                <button onclick="quickQuery('温州一组')">温州一组</button>
+                <button onclick="quickQuery('A类项目')">A类项目</button>
+                <button onclick="quickQuery('已投放')">已投放</button>
+                <button onclick="quickQuery('收齐资料')">收齐资料</button>
+                <button onclick="quickQuery('1000万以上')">1000万以上</button>
+                <button onclick="showStats()">📈 统计概览</button>
+            </div>
+        </div>
+        
+        <div id="statsGrid" class="stats-grid" style="display:none;"></div>
+        
+        <div class="results">
+            <h3 id="resultsTitle">💡 输入查询条件开始搜索</h3>
+            <div id="resultsContent">
+                <div class="no-data">
+                    💡 输入查询条件开始搜索<br><br>
+                    示例：<br>
+                    • "温州二组有哪些项目"<br>
+                    • "已投放的项目有哪些"<br>
+                    • "1000万以上的项目"
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            由朱泽曦整理 · 数据更新于每日台账
+        </div>
+    </div>
+    
+    <script>
+        // API地址 - ngrok公网地址
+        const API_BASE = 'https://arrival-unafraid-womankind.ngrok-free.dev';
+        
+        async function doQuery() {
+            const query = document.getElementById('queryInput').value.trim();
+            if (!query) return;
+            
+            document.getElementById('resultsTitle').textContent = '🔄 查询中...';
+            document.getElementById('resultsContent').innerHTML = '<div class="loading">正在查询</div>';
+            document.getElementById('statsGrid').style.display = 'none';
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/query`, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({query: query})
+                });
+                
+                if (!response.ok) throw new Error('网络请求失败');
+                
+                const data = await response.json();
+                displayResults(data);
+            } catch (err) {
+                document.getElementById('resultsContent').innerHTML = 
+                    `<div class="error">
+                        ⚠️ 查询失败: ${err.message}<br>
+                        <small>请确保服务已启动，或检查网络连接</small>
+                    </div>`;
+            }
+        }
+        
+        function quickQuery(text) {
+            document.getElementById('queryInput').value = text;
+            doQuery();
+        }
+        
+        function showStats() {
+            document.getElementById('statsGrid').style.display = 'grid';
+            document.getElementById('resultsContent').innerHTML = '';
+            document.getElementById('resultsTitle').textContent = '📈 统计概览';
+            
+            fetch(`${API_BASE}/api/stats`)
+                .then(r => r.json())
+                .then(displayStats)
+                .catch(err => {
+                    document.getElementById('resultsContent').innerHTML = 
+                        `<div class="error">⚠️ 加载失败: ${err.message}</div>`;
+                });
+        }
+        
+        function displayResults(data) {
+            document.getElementById('statsGrid').style.display = 'none';
+            
+            if (data.type === 'stats') {
+                displayStats(data.data);
+                return;
+            }
+            
+            const projects = data.results || [];
+            document.getElementById('resultsTitle').textContent = `📋 查询结果 (${projects.length}个项目)`;
+            
+            if (projects.length === 0) {
+                document.getElementById('resultsContent').innerHTML = '<div class="no-data">未找到匹配项目</div>';
+                return;
+            }
+            
+            let html = '<table><thead><tr>';
+            html += '<th>客户名</th><th>组别</th><th>金额(万)</th><th>阶段</th><th>行业</th>';
+            html += '</tr></thead><tbody>';
+            
+            for (const p of projects.slice(0, 50)) {
+                const stage = getStage(p);
+                html += '<tr>';
+                html += `<td>${escapeHtml(p.name || '未知')}</td>`;
+                html += `<td>${escapeHtml(p.group || '未知')}</td>`;
+                html += `<td class="amount">${formatAmount(p.amount)}</td>`;
+                html += `<td><span class="stage-tag stage-${stage.num}">${stage.name}</span></td>`;
+                html += `<td>${escapeHtml(p.industry || '未知')}</td>`;
+                html += '</tr>';
+            }
+            
+            html += '</tbody></table>';
+            if (projects.length > 50) {
+                html += `<div class="no-data">显示前50个，共${projects.length}个</div>`;
+            }
+            
+            document.getElementById('resultsContent').innerHTML = html;
+        }
+        
+        function displayStats(stats) {
+            const grid = document.getElementById('statsGrid');
+            grid.innerHTML = `
+                <div class="stat-card">
+                    <div class="number">${stats.total}</div>
+                    <div class="label">项目总数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">${(stats.total_amount / 10000).toFixed(1)}亿</div>
+                    <div class="label">总实行额</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">${Object.keys(stats.by_group || {}).length}</div>
+                    <div class="label">组别数量</div>
+                </div>
+            `;
+            
+            let html = '<h3 style="margin: 20px 0 15px;">各组情况</h3><table><thead><tr><th>组别</th><th>项目数</th><th>金额(万)</th></tr></thead><tbody>';
+            
+            const sorted = Object.entries(stats.by_group || {}).sort((a, b) => b[1].amount - a[1].amount);
+            for (const [group, data] of sorted) {
+                html += `<tr><td>${escapeHtml(group)}</td><td>${data.count}</td><td class="amount">${formatAmount(data.amount)}</td></tr>`;
+            }
+            
+            html += '</tbody></table>';
+            
+            html += '<h3 style="margin: 20px 0 15px;">各阶段分布</h3><table><thead><tr><th>阶段</th><th>项目数</th></tr></thead><tbody>';
+            
+            const stageNames = ['', '收齐资料', '送审中', '审批通过', '合同完成', '已投放'];
+            for (let i = 1; i <= 5; i++) {
+                html += `<tr><td>${stageNames[i]}</td><td>${stats.by_stage['step' + i] || 0}</td></tr>`;
+            }
+            
+            html += '</tbody></table>';
+            
+            document.getElementById('resultsContent').innerHTML = html;
+        }
+        
+        function getStage(p) {
+            for (let i = 5; i >= 1; i--) {
+                if (p['step' + i]) {
+                    return {num: i, name: ['', '收齐资料', '送审中', '审批通过', '合同完成', '已投放'][i]};
+                }
+            }
+            return {num: 0, name: '未知'};
+        }
+        
+        function formatAmount(val) {
+            const num = parseFloat(val) || 0;
+            return num.toLocaleString('zh-CN');
+        }
+        
+        function escapeHtml(str) {
+            if (!str) return '';
+            return String(str).replace(/&/g, '&amp;')
+                              .replace(/</g, '&lt;')
+                              .replace(/>/g, '&gt;')
+                              .replace(/"/g, '&quot;');
+        }
+        
+        document.getElementById('queryInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') doQuery();
+        });
+    </script>
+</body>
+</html>
